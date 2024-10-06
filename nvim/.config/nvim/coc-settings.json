@@ -1,0 +1,10 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": ["*"],
+  "css.lint.duplicateProperties": "warning",
+  "css.lint.zeroUnits": "warning",
+  "scss.lint.duplicateProperties": "warning",
+  "scss.lint.zeroUnits": "warning",
+  "python.formatting.provider": "black",
+  "python.formatting.blackArgs": ["--line-length", 79],
+  "python.linting.flake8Enabled": true
+}
