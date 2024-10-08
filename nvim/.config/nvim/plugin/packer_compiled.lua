@@ -99,6 +99,16 @@ _G.packer_plugins = {
     path = "/Users/steverydz/.local/share/nvim/site/pack/packer/start/coc.nvim",
     url = "https://github.com/neoclide/coc.nvim"
   },
+  ["lualine.nvim"] = {
+    loaded = true,
+    path = "/Users/steverydz/.local/share/nvim/site/pack/packer/start/lualine.nvim",
+    url = "https://github.com/nvim-lualine/lualine.nvim"
+  },
+  ["nvim-web-devicons"] = {
+    loaded = true,
+    path = "/Users/steverydz/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
+    url = "https://github.com/nvim-tree/nvim-web-devicons"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/Users/steverydz/.local/share/nvim/site/pack/packer/start/packer.nvim",
@@ -124,6 +134,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/steverydz/.local/share/nvim/site/pack/packer/start/typescript-vim",
     url = "https://github.com/leafgarland/typescript-vim"
+  },
+  ["vim-fugitive"] = {
+    loaded = true,
+    path = "/Users/steverydz/.local/share/nvim/site/pack/packer/start/vim-fugitive",
+    url = "https://github.com/tpope/vim-fugitive"
   },
   ["vim-javascript"] = {
     loaded = true,

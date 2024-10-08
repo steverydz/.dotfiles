@@ -1,6 +1,6 @@
 -- This file can be loaded by calling `lua require('plugins')` from your init.vim
 
--- Only required if you have packer configured as `opt`
+-- 'Only required if you have packer configured as `opt`
 vim.cmd [[packadd packer.nvim]]
 
 return require('packer').startup(function(use)
@@ -30,6 +30,9 @@ return require('packer').startup(function(use)
   use('fannheyward/coc-pyright')
   use('neoclide/coc-css')
   use('neoclide/coc-eslint')
+  use('nvim-tree/nvim-web-devicons')
+  use({'nvim-lualine/lualine.nvim', dependencies = { 'nvim-tree/nvim-web-devicons' }})
+  use('tpope/vim-fugitive')
 
   vim.g.coc_global_extensions = {'coc-tsserver', 'coc-prettier', 'coc-pyright', 'coc-css', 'coc-eslint'}
 end)
