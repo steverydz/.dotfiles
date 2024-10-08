@@ -24,6 +24,7 @@ Plug 'neoclide/coc-prettier'
 Plug 'fannheyward/coc-pyright'
 Plug 'neoclide/coc-css'
 Plug 'neoclide/coc-eslint'
+Plug 'nvim-treesitter/nvim-treesitter' 
 
 vim.call('plug#end')
 
