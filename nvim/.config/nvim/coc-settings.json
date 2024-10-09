@@ -4,6 +4,9 @@
   "css.lint.zeroUnits": "warning",
   "scss.lint.duplicateProperties": "warning",
   "scss.lint.zeroUnits": "warning",
+  "pyright.inlayHints.functionReturnTypes": false,
+  "pyright.inlayHints.parameterTypes": false,
+  "pyright.inlayHints.variableTypes": false,
   "python.formatting.provider": "black",
   "python.formatting.blackArgs": ["--line-length", 79],
   "python.linting.flake8Enabled": true
