@@ -1,10 +1,4 @@
 {
-  "coc-css": { "branch": "master", "commit": "1103be62ac20bf211e689b941a7eae166187f82c" },
-  "coc-eslint": { "branch": "master", "commit": "70eb10d294e068757743f9b580c724e92c5b977d" },
-  "coc-prettier": { "branch": "master", "commit": "b0f67a8685cf71b3d1acb6c78da148fc8caa960f" },
-  "coc-pyright": { "branch": "master", "commit": "5369fd36bff86ccd77124f6de23482f3a2439a76" },
-  "coc-stylelint": { "branch": "master", "commit": "dff328bd0c66b308233f8a111c09359340b9b093" },
-  "coc.nvim": { "branch": "master", "commit": "9fd857818977ce9f9f6f7271034fc917dede7035" },
   "lazy.nvim": { "branch": "main", "commit": "1159bdccd8910a0fd0914b24d6c3d186689023d9" },
   "nvim-treesitter": { "branch": "master", "commit": "9d2acd49976e2a9da72949008df03436f781fd23" },
   "plenary.nvim": { "branch": "master", "commit": "2d9b06177a975543726ce5c73fca176cedbffe9d" },

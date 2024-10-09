@@ -1,1 +1,1 @@
-require("rydzy")
+require("config")
