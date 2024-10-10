@@ -1,4 +1,4 @@
-vim.opt.nu = true
+vim.opt.number = true
 vim.opt.relativenumber = true
 
 vim.opt.tabstop = 2
@@ -14,8 +14,6 @@ vim.opt.backup = false
 vim.opt.hlsearch = false
 vim.opt.incsearch = true
 
-vim.opt.termguicolors = true
 vim.opt.background = "dark"
-vim.cmd([[colorscheme vague]])
 
 vim.opt.colorcolumn = "80"
