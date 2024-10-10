@@ -1,4 +1,4 @@
 return {
-  'rose-pine/neovim', name = 'rose-pine'
+  "vague2k/vague.nvim"
 }
 

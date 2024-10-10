@@ -16,6 +16,6 @@ vim.opt.incsearch = true
 
 vim.opt.termguicolors = true
 vim.opt.background = "dark"
-vim.cmd([[colorscheme rose-pine]])
+vim.cmd([[colorscheme vague]])
 
 vim.opt.colorcolumn = "80"
