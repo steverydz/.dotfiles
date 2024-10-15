@@ -7,8 +7,8 @@ return {
     lint.linters_by_ft = {
       python = { 'flake8' },
       javascript = { 'eslint' },
-      scss = { 'stylelint' },
-      css = { 'stylelint' },
+      -- scss = { 'stylelint' },
+      -- css = { 'stylelint' },
     }
 
     local lint_augroup = vim.api.nvim_create_augroup('lint', { clear = true })
