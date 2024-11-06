@@ -163,7 +163,9 @@ return {
       --
       -- But for many setups, the LSP (`ts_ls`) will work just fine
       ts_ls = {},
-      emmet_language_server = {},
+      emmet_language_server = {
+        filetypes = { 'html', 'javascriptreact', 'typescriptreact' },
+      },
       --
 
       lua_ls = {
