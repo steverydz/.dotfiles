@@ -576,6 +576,8 @@ require('lazy').setup({
         'prettier',
         'stylelint',
         'black',
+        'flake8',
+        'pyright',
       })
       require('mason-tool-installer').setup { ensure_installed = ensure_installed }
 
@@ -639,6 +641,11 @@ require('lazy').setup({
         css = { 'stylelint' },
         scss = { 'stylelint' },
         python = { 'black' },
+      },
+      formatters = {
+        black = {
+          prepend_args = { '--line-length', '79' },
+        },
       },
     },
   },
