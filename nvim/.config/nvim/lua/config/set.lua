@@ -67,4 +67,4 @@ vim.opt.shiftwidth = 2
 vim.opt.expandtab = true
 
 -- Disable swap files
-vim.opt.noswapfile = true
+vim.opt.swapfile = false
