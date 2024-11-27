@@ -29,6 +29,7 @@ require('lazy').setup({
   require 'plugins.telescope',
   require 'plugins.todo-comments',
   require 'plugins.treesitter',
+  require 'plugins.trouble',
   require 'plugins.vim-sleuth',
   require 'plugins.which-key',
 }, {
