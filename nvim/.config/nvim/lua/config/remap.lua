@@ -13,6 +13,12 @@ vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
 
 -- Diagnostic keymaps
 vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist, { desc = 'Open diagnostic [Q]uickfix list' })
+vim.keymap.set('n', '<leader>dn', vim.diagnostic.goto_next, { buffer = 0 })
+vim.keymap.set('n', '<leader>dp', vim.diagnostic.goto_prev, { buffer = 0 })
+vim.keymap.set('n', '<leader>dl', '<cmd>Telescope diagnostics<cr>', { buffer = 0 })
+
+-- Refactoring keymaps
+vim.keymap.set('n', '<leader>r', vim.lsp.buf.rename)
 
 -- Exit terminal mode in the builtin terminal with a shortcut that is a bit easier
 -- for people to discover. Otherwise, you normally need to press <C-\><C-n>, which
