@@ -1,4 +1,4 @@
 require("config.remaps")
 require("config.opts")
-require("config.autocmd")
+require("config.autocmds")
 require("config.lazy")
