@@ -64,6 +64,8 @@ return {
 		local servers = {
 			pyright = {},
 			ts_ls = {},
+			cssls = {},
+			html = {},
 			lua_ls = {
 				settings = {
 					Lua = {
