@@ -4,7 +4,6 @@ return {
 	main = "nvim-treesitter.configs",
 	opts = {
 		ensure_installed = {
-			"bash",
 			"css",
 			"html",
 			"javascript",
@@ -18,8 +17,14 @@ return {
 		auto_install = true,
 		highlight = {
 			enable = true,
-			additional_vim_regex_highlighting = { "ruby" },
 		},
-		indent = { enable = true, disable = { "html", "css", "scss" } },
+		indent = {
+			enable = true,
+			disable = {
+				"html",
+				"css",
+				"scss",
+			},
+		},
 	},
 }
