@@ -62,28 +62,18 @@ return {
 		capabilities = vim.tbl_deep_extend("force", capabilities, require("cmp_nvim_lsp").default_capabilities())
 
 		local servers = {
+			cssls = {},
+			emmet_language_server = {},
+			eslint = {},
+			html = {},
+			lua_ls = {},
 			pyright = {},
 			ts_ls = {},
-			cssls = {},
-			html = {},
-			lua_ls = {
-				settings = {
-					Lua = {
-						completion = {
-							callSnippet = "Replace",
-						},
-					},
-				},
-			},
 		}
 
 		require("mason").setup()
 
 		local ensure_installed = vim.tbl_keys(servers or {})
-
-		vim.list_extend(ensure_installed, {
-			"pyright",
-		})
 
 		require("mason-tool-installer").setup({ ensure_installed = ensure_installed })
 

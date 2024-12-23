@@ -26,8 +26,6 @@ return {
 			javascriptreact = { "prettier" },
 			typescript = { "prettier" },
 			typescriptreact = { "prettier" },
-			css = { "stylelint" },
-			scss = { "stylelint" },
 			python = { "black" },
 		},
 		formatters = {
