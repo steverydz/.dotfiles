@@ -1,9 +1,14 @@
 return {
-	"folke/tokyonight.nvim",
+	"rose-pine/neovim",
 	lazy = false,
 	priority = 1000,
-	opts = {},
 	config = function()
-		vim.cmd.colorscheme("tokyonight-night")
+		--- @diagnostic disable-next-line missing-fields
+		require("rose-pine").setup({
+			styles = {
+				italic = false,
+			},
+		})
+		vim.cmd.colorscheme("rose-pine-moon")
 	end,
 }
