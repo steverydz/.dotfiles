@@ -96,7 +96,8 @@ return {
       lua_ls = {},
       pyright = {},
       ts_ls = {},
-      svelte = {}
+      svelte = {},
+      gopls = {}
     }
 
     require("mason").setup()
