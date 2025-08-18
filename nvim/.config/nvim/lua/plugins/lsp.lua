@@ -88,11 +88,6 @@ return {
       cssls = {},
       emmet_language_server = {},
       eslint = {},
-      html = {
-        init_options = {
-          provideFormatter = false,
-        },
-      },
       lua_ls = {},
       pyright = {},
       ts_ls = {},
