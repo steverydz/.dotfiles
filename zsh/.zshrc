@@ -117,3 +117,5 @@ export PUPPETEER_EXECUTABLE_PATH=`which chromium`
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 
+# Deno
+. "/Users/steverydz/.deno/env"
